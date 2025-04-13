@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main{
+    width: 80%;
+    margin: 15px auto 0;
+}
+
+#student-form{
+    display: flex;
+    flex-direction: column;
+}
+
+#student-form input{
+    margin: 5px 0;
+    padding: 10px;
+    color: blueviolet;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+}
+
+#student-form button{
+    background-color: blueviolet;
+    padding: 10px ;
+    border-radius: 10px;
+}
+
+.students{
+    padding: 10px 5px;
+    margin: 20px 0;
+    display: none;
+}
+
+.students div{
+    margin: 10px 0;
+    border: 1px solid;
+    padding: 10px;
+    background-color: rgb(253, 245, 255);
+    border-radius: 10px;
+}
